@@ -1,0 +1,1 @@
+const firebaseConfig={apiKey:"AIzaSyDHiXqw_Jw7DjScpkR15rw09-W2jufG79Q",authDomain:"cyberwolves-16ab7.firebaseapp.com",projectId:"cyberwolves-16ab7",storageBucket:"cyberwolves-16ab7.firebasestorage.app",messagingSenderId:"1021934840064",appId:"1:1021934840064:web:78784329f62a5b5416abe5",measurementId:"G-0YVWTVQ88V"};firebase.initializeApp(firebaseConfig);
