@@ -329,9 +329,7 @@ client.on("messageCreate", async (message) => {
     }
   }
 });
-client.login(
-  "MTM4MjY5ODA2NDg5NjA2NTU0Ng.GPHaSc.fLzcBtKZjd129h3cF7DwlwDr4dNG_IMHxxrwlk",
-);
+client.login(process.env.DISCORD_TOKEN);
 function trackVoicePoints() {
   client.guilds.cache.forEach(async (guild) => {
     guild.members.cache.forEach(async (member) => {
